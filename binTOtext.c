@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	printf("Decimal: ");
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i < argc - 1; i++) {
 		printf("%i ", text[i]);
 	}
 
